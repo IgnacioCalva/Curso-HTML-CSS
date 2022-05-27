@@ -1,9 +1,13 @@
+body {
+  background-color: grey;
+}
 nav {
   background-color: darkgray;
 }
 
 header,
 main,
+section,
 footer,
 nav,
 div {
@@ -15,5 +19,8 @@ div {
   vertical-align: center;
 }
 h1 {
+  text-align: center;
+}
+.saulgoodman {
   display: inline;
 }
