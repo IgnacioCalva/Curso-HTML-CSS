@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contratación</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulario de Contratación</h1>
+    </header>
+    <main>
+      <form name="Contratar" method="get" action enctype="multipart/form-data">
+        <fieldset>
+          <legend>Información</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" required placeholder="Ingrese su Nombre" />
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" required placeholder="Ingrese su Apellido" />
+        </fieldset>
+        <fieldset>
+          <legend>Dirección</legend>
+          <label for="ciudad">Ciudad:</label>
+          <select name="ciudad" multiple required>
+            <option value="escobar">Escobar</option>
+            <option value="campana">Campana</option>
+            <option value="zarate">Zarate</option>
+          </select>
+          <label for="calle">Calle:</label>
+          <input type="text" name="Calle" required placeholder="Ingrese su Calle" />
+          <label for="altura">Altura:</label>
+          <input type="text" name="altura" required placeholder="Ingrese su Altura" />
+        </fieldset>
+        <fieldset>
+          <legend>Extra</legend>
+          <textarea name="Texto" cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+          <input type="reset" name="resetear" value="Borrar Todo" />
+          <input type="submit" name="Guardar" />
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>
+        Copyright 2022 -
+        <a href="#">Instagram</a>
+      </p>
+    </footer>
+  </body>
+</html>
