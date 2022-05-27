@@ -1,0 +1,19 @@
+nav {
+  background-color: darkgray;
+}
+
+header,
+main,
+footer,
+nav,
+div {
+  border: 1px solid black;
+  margin: 5px;
+}
+.nav1 {
+  text-align: center;
+  vertical-align: center;
+}
+h1 {
+  display: inline;
+}
