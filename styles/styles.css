@@ -1,12 +1,12 @@
 body {
   background-color: grey;
+  margin: 100px;
+  width: 100%;
 }
 nav {
   background-color: darkgray;
 }
 
-header,
-main,
 section,
 footer,
 nav,
@@ -23,4 +23,60 @@ h1 {
 }
 .saulgoodman {
   display: inline;
+}
+
+.nav1 > ul > li {
+  font-weight: bold;
+}
+
+header > #sobremi {
+  display: grid;
+  width: 100%;
+  height: 400px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "imagen text";
+  gap: 20px;
+}
+
+.imagen {
+  grid-area: imagen;
+}
+
+.text {
+  grid-area: text;
+}
+
+.nav1 {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 90%;
+}
+
+#quehago {
+  background-image: url(../img/saulsentado.jpg);
+}
+
+.carrera {
+  background-color: #2c2c2c;
+  color: white;
+}
+
+.contrato {
+  display: grid;
+  width: 100%;
+  height: 400px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logro contratar";
+  gap: 20px;
+}
+
+#logros {
+  grid-area: logro;
+}
+
+#contratar {
+  grid-area: contratar;
 }
